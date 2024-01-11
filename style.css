@@ -1,0 +1,2162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+
+
+}
+
+.hide {
+  /* display: none; */
+}
+
+.reveal {
+  /* border: solid red 2px; */
+}
+
+
+
+.home {
+  /* background-color: black; */
+  width: 100%;
+  background-image: url(abs\ Design.svg);
+}
+
+
+
+.text2 {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 220px;
+  left: 500px;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.p0 {
+  color: white;
+}
+
+.p5 {
+  color: white;
+}
+
+.p6 {
+  color: white;
+}
+
+.p7 {
+  color: white;
+}
+
+.p1 {
+  color: white;
+}
+
+.p2 {
+  color: white;
+}
+
+.p3 {
+  color: white;
+}
+
+.p4 {
+  color: white;
+}
+
+.btn3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  background-color: greenyellow;
+  position: absolute;
+  top: 300px;
+  right: 600px;
+}
+
+.btn2 {
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 10px;
+  background-color: transparent;
+  position: absolute;
+  top: 300px;
+  right: 750px;
+}
+
+.bar2 {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.p6 {
+  color: white;
+}
+
+.p7 {
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  right: 630px;
+}
+
+.b1 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+  gap: 150px;
+}
+
+.ser {
+  width: 100%;
+  position: relative;
+}
+
+.text3 {
+  color: rgb(253, 247, 247);
+  position: absolute;
+  top: 800px;
+  display: flex;
+  flex-direction: column;
+  left: 400px;
+  /* background-image: url(Text\ Container.png); */
+  /* width: 100%; */
+
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card1 {
+  width: 532px;
+  height: 577px;
+  background-color: transparent;
+  position: absolute;
+  top: 1000px;
+  position: relative;
+}
+
+.text4 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.src0 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.btn4 {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.p8 {
+  color: white;
+}
+
+.card2 {
+  width: 532px;
+  height: 577px;
+  background-color: transparent;
+  position: absolute;
+  top: 1000px;
+  position: relative;
+}
+
+.text5 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.src1 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.btn5 {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.p9 {
+  color: white;
+}
+
+.card3 {
+  width: 532px;
+  height: 577px;
+  background-color: transparent;
+  position: absolute;
+  top: 1000px;
+  position: relative;
+}
+
+.text6 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.src2 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.btn6 {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.p10 {
+  color: white;
+}
+
+.text4 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tex {
+  color: white;
+  position: absolute;
+  top: 1700px;
+  left: 400px;
+  /* background-image: url(Text\ Container.png); */
+  /* width: 100%; */
+  /* height: 200px; */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cardset1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.exp1 {
+  width: 798.5px;
+  height: 378px;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  position: relative;
+}
+
+.exp {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.hd {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p14 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.exp2 {
+  width: 798.5px;
+  height: 378px;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  position: relative;
+}
+.exp0 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.hd1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p15 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.cardset2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.exp3 {
+  width: 798.5px;
+  height: 378px;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  position: relative;
+}
+
+.exp4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.hd2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p16 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.exp5 {
+  width: 798.5px;
+  height: 378px;
+  background-color: transparent;
+  position: absolute;
+  top: 1300px;
+  position: relative;
+}
+
+.exp6 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.hd3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p17 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.tet {
+  color: white;
+  top: 2700px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 300px;
+}
+
+.h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub {
+  gap: 10px;
+}
+
+.budset1 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.bud1 {
+  width: 798px;
+  height: 532px;
+  background-color: transparent;
+  position: relative;
+  top: 1500px;
+}
+
+.bud1 h2 {
+  color: greenyellow;
+  top: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.p20 {
+  color: white;
+  top: 180px;
+  position: absolute;
+  left: 20px;
+}
+
+.te {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 170px;
+  left: 110px;
+}
+
+.te p {
+  position: absolute;
+  top: 130px;
+}
+
+.te h2 {
+  position: absolute;
+  left: 0;
+}
+
+.src10 {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+.but {
+  padding: 18px 20px 18px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  position: absolute;
+  top: 265px;
+  right: 40px;
+}
+
+.p21 {
+  color: white;
+}
+
+.bud2 {
+  width: 798px;
+  height: 532px;
+  background-color: transparent;
+  position: relative;
+  top: 1500px;
+}
+
+.bud2 h2 {
+  color: greenyellow;
+  top: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.p22 {
+  color: white;
+  top: 180px;
+  position: absolute;
+  left: 20px;
+}
+
+.te1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 170px;
+  left: 110px;
+}
+
+.te1 p {
+  position: absolute;
+  top: 130px;
+}
+
+.te1 h2 {
+  position: absolute;
+  left: 0;
+}
+
+.src11 {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+.but1 {
+  padding: 18px 20px 18px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  position: absolute;
+  top: 265px;
+  right: 10px;
+}
+
+.p23 {
+  color: white;
+}
+
+.budset2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.bud3 {
+  width: 798px;
+  height: 532px;
+  background-color: transparent;
+  position: relative;
+  top: 1500px;
+}
+
+.bud3 h2 {
+  color: greenyellow;
+  top: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.p24 {
+  color: white;
+  top: 180px;
+  position: absolute;
+  left: 20px;
+}
+
+.te2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 170px;
+  left: 110px;
+}
+
+.te2 p {
+  position: absolute;
+  top: 130px;
+}
+
+.te2 h2 {
+  position: absolute;
+  left: 0;
+}
+
+.src12 {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+.but3 {
+  padding: 18px 20px 18px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  position: absolute;
+  top: 265px;
+  right: 10px;
+}
+
+.p25 {
+  color: white;
+}
+
+.bud4 {
+  width: 798px;
+  height: 532px;
+  background-color: transparent;
+  position: relative;
+  top: 1500px;
+}
+
+.bud4 h2 {
+  color: greenyellow;
+  top: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.p26 {
+  color: white;
+  top: 180px;
+  position: absolute;
+  left: 20px;
+}
+
+.te3 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 170px;
+  left: 110px;
+}
+
+.te3 p {
+  position: absolute;
+  top: 130px;
+}
+
+.te3 h2 {
+  position: absolute;
+  left: 0;
+}
+
+.src13 {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+.but4 {
+  padding: 18px 20px 18px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  position: absolute;
+  top: 265px;
+  right: 10px;
+}
+
+.p27 {
+  color: white;
+}
+
+.budset3 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.bud5 {
+  width: 798px;
+  height: 532px;
+  background-color: transparent;
+  position: relative;
+  top: 1500px;
+}
+
+.bud5 h2 {
+  color: greenyellow;
+  top: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.p28 {
+  color: white;
+  top: 180px;
+  position: absolute;
+  left: 20px;
+}
+
+.te4 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 170px;
+  left: 110px;
+}
+
+.te4 p {
+  position: absolute;
+  top: 130px;
+}
+
+.te4 h2 {
+  position: absolute;
+  left: 0;
+}
+
+.src14 {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+.but5 {
+  padding: 18px 20px 18px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  position: absolute;
+  top: 265px;
+  right: 10px;
+}
+
+.p29 {
+  color: white;
+}
+
+.bud6 {
+  width: 798px;
+  height: 532px;
+  background-color: transparent;
+  position: relative;
+  top: 1500px;
+}
+
+.bud6 h2 {
+  color: greenyellow;
+  top: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.p30 {
+  color: white;
+  top: 180px;
+  position: absolute;
+  left: 20px;
+}
+
+.te5 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 170px;
+  left: 110px;
+}
+
+.te5 p {
+  position: absolute;
+  top: 130px;
+}
+
+.te5 h2 {
+  position: absolute;
+  left: 0;
+}
+
+.src15 {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+.but6 {
+  padding: 18px 20px 18px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  position: absolute;
+  top: 265px;
+  right: 10px;
+}
+
+.p31 {
+  color: white;
+}
+
+.fre {
+  position: relative;
+}
+
+.fretext {
+  color: white;
+  position: absolute;
+  top: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 500px;
+}
+
+.sp1 {
+  color: greenyellow;
+  font-size: 1.6rem;
+}
+
+.fre1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.fre1 h2 {
+  color: white;
+}
+
+.fre1 p {
+  color: white;
+}
+
+.fret {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1700px;
+  gap: 20px;
+}
+
+.fret h2 {
+  color: greenyellow;
+}
+
+
+
+@media (max-width: 992px) {
+   body {
+    font-size: x-large;
+   }
+  .navbar,
+  .btn {
+    display: none;
+  }
+
+  
+
+ .cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
+
+
+ .cardset1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  
+ }
+
+ .cardset2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  
+ }
+ .b1 {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .tet {
+  text-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  display: none;
+ }
+}
+
+@media (max-width : 375px) {
+  .first {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .second {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .b1 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+.pro {
+  padding: 18px 34px 18px 34px;
+  background-color: greenyellow;
+  position: absolute;
+  left: 0;
+  border-radius: 8px;
+}
+
+.block {
+  position: absolute;
+  top: 4400px;
+  left: 700px;
+  gap: 50px;
+  justify-self: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.src16 {
+  position: absolute;
+  left: 45px;
+  top: 0;
+}
+
+.block h1 {
+  color: white;
+}
+
+.block p {
+  color: white;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: absolute;
+  top: 4700px;
+  left: 500px;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: white;
+  background: transparent;
+  border: 0.8rem;
+  margin: 0.7rem 0;
+  border: solid greenyellow 2px;
+}
+
+.contact form .input-box input {
+  width: 49%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form .btn7 {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.text7 {
+  position: relative;
+}
+
+.text7 h1 {
+  position: absolute;
+  left: 100px;
+}
+
+.btn7 {
+  padding: 20px 30px 20px 30px;
+  border-radius: 8px;
+  background-color: greenyellow;
+}
+
+.ltag {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.logo2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+
+}
+
+.logo2 h1 {
+  color: white;
+}
+
+.lin {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+
+.lin h3 {
+  color: white;
+}
+
+/* work section */
+
+.work h1 {
+  color: white;
+}
+
+.work h3 {
+  color: white;
+}
+
+.work p {
+  color: white;
+}
+
+.secnav1 {
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  padding: 4rem;
+  background-image: url(images/Text\ Container.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.squareup {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-inline: 1.5em;
+  margin-top: 3em;
+}
+
+.boxset {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.boxset11, .boxset12, .boxset13, .boxset14,.boxset15{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-bottom: 2em;
+}
+
+.boxset1 h2 {
+  color: white;
+}
+
+.boxset h1 {
+  color: white;
+}
+.Chic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset1 p {
+  color: white;
+}
+
+.boxset2 h2 {
+  color: white;
+}
+
+.Hungry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset2 p {
+  color: white;
+}
+
+/* .boxset11 {
+  display: flex;
+  flex-direction: row;
+} */
+
+
+.boxset3 h2 {
+  color: white;
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset3 p {
+  color: white;
+}
+
+/* .boxset12 {
+  display: flex;
+  flex-direction: row;
+} */
+
+.boxset4 h2 {
+  color: white;
+}
+
+.protech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset4 p {
+  color: white;
+}
+
+.boxset5 h2 {
+  color: white;
+}
+
+.dream {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset5 p {
+  color: white;
+}
+
+.boxset6 h2 {
+  color: white;
+}
+
+.fit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boxset6 p {
+  color: white;
+}
+
+.boxset7 h2 {
+  color: white;
+}
+
+.globe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset7 p {
+  color: white;
+}
+
+.boxset8 h2 {
+  color: white;
+}
+
+.edu {
+  display: flex;
+  flex-direction: row;
+  gap: 450px;
+}
+
+.boxset8 p {
+  color: white;
+}
+
+.boxset8 h1 {
+  color: white;
+}
+
+.boxset9 h2 {
+  color: white;
+}
+
+.wander {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset9 p {
+  color: white;
+}
+
+.boxset10 h2 {
+  color: white;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxset10 p {
+  color: white;
+}
+
+.sect p {
+  color: white;
+  
+}
+
+.sect h1 {
+  color: white;
+  position: absolute;
+  top: 150px;
+}
+
+.foot5 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 2em;
+  
+}
+
+.foot5 h3 {
+  color: white;
+}
+
+.mail5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.location5 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width :992px) {
+  .work {
+    
+    background-position: center;
+  }
+
+  /* .boxset11,.boxset12,.boxset13,.boxset14,.boxset15 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
+   } */
+  }
+
+  .boxset{
+    margin-inline: 2em;
+  }
+}
+
+@media (max-width :475px) {
+  
+}
+/* service section */
+.hit1,.hit2 {
+  color: white;
+  margin-inline: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.iconset1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon1,.icon2,.icon3,.icon4{
+  margin-inline: 2em;
+}
+.icon1 h3 {
+  color: white;
+  margin-top: 1em;
+}
+
+.icon2 h3 {
+  color: white;
+  margin-top: 1em;
+}
+
+.icon3 h3 {
+  color: white;
+  margin-top: 1em;
+}
+
+.icon4 h3 {
+  color: white;
+  margin-top: 1em;
+}
+
+.let{
+  background-image: url(images/Text\ Container.png);
+  height: 624px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-top: 2em;
+  align-items: center;
+  gap: 20px;
+}
+
+.let button {
+  color: white;
+  background-color: greenyellow;
+  padding: 18px 34px 18px 34px;
+  border-radius: 8px;
+  border: transparent;
+}
+.let h1 {
+  color: white;
+}
+
+.let p {
+  color: white;
+}
+/* about section */
+.a {
+  padding: 4rem;
+  background-image: url(images/Text\ Container.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about h1 {
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.about p {
+  color: white;
+}
+
+.next h1 {
+  color: white;
+}
+
+.next p {
+  color: white;
+
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 4em;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.abttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abtset1,.abtset2,.abtset3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Story {
+  color: white;
+  margin-inline: 4em;
+}
+
+.trive {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.dig2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.collab2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.collab2 button {
+  padding: 18px 34px 18px 34px;
+  background-color: greenyellow;
+  border-radius: 8px;
+}
+
+.secnav2 {
+  position: absolute;
+  top: 2850px;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: absolute;
+  top: 3000px;
+}
+
+.foot2 h3 {
+  color: white;
+}
+
+.footext2 {
+  position: absolute;
+  right: -800px;
+}
+
+.mail2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.location2 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Careers section */
+.careers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Text\ Container.png);
+  height: 300px;
+}
+
+.careers p {
+  color: white;
+}
+
+.careers h1 {
+  color: white;
+}
+
+.textt {
+  color: white;
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+ 
+}
+
+.carp {
+  color: white;
+  margin-inline: 1em;
+  padding-top: .5em;
+  padding-bottom: 2em;
+  background-color: #373737;
+  border-radius: .5em;
+  width: 12em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Inn11 h1 {
+  color: greenyellow;
+  padding-bottom: 2em;
+
+}
+
+.Inn11 p {
+  color: white;
+
+}
+
+.Inn1,.Inn2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 1em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.Inn11,.Inn12,.Inn13,.Inn14{
+  gap: 20px;
+}
+
+.Inn12 h1 {
+  color: greenyellow;
+  padding-bottom: 2em;
+
+}
+
+.Inn12 p {
+  color: white;
+ 
+}
+
+.Inn13 h1 {
+  color: greenyellow;
+  padding-bottom: 2em;
+}
+
+.Inn13 p {
+  color: white;
+
+}
+
+.Inn14 h1 {
+  color: greenyellow;
+  padding-bottom: 2em;
+}
+
+.Inn14 p {
+  color: white;
+
+}
+
+.current{
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.current h1 {
+  color: white;
+}
+
+.current p {
+  color: white;
+}
+
+.desjobs1 ,.desjobs2,.desjobs3,.desjobs4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.job {
+  color: white;
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.job2 {
+  color: white;
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.job3 {
+  color: white;
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.job4 {
+  color: white;
+  margin-inline: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+} 
+
+.des1 h1 {
+  color: white;
+  padding-bottom: 2em;
+}
+
+.des1 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.desjobs button {
+  background-color: transparent;
+  padding: 10px 120px 10px 120px;
+  border-radius: 8px;
+  color: white;
+ 
+}
+
+.srcu {
+   padding-bottom: 2em;
+}
+
+.des2 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des2 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des3 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des3 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des4 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des4 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des5 h1 {
+  color: white;
+  padding-bottom: 2em;
+}
+
+.des5 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+
+
+.des6 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des6 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des7 h1 {
+  color: white;
+  padding-bottom: 2em;
+}
+
+.des7 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des8 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des8 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+
+.des9 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des9 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des10 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des10 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des11 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des11 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des12 h1 {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.des12 p {
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+.dig {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thrive {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.collab {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.collab button {
+  padding: 18px 34px 18px 34px;
+  background-color: greenyellow;
+  border-radius: 8px;
+}
+
+.secnav {
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lin {
+ 
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.foot h3 {
+  color: white;
+}
+
+.footext {
+
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+}
+
+/* contact section  */
+.cart h1 {
+  color: white;
+}
+
+.cart p {
+  color: white;
+}
+
+.cart {
+  background-image: url("Text\ Container.png");
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+
+.foot3 h3 {
+  color: white;
+}
+
+.footext3 {
+  position: absolute;
+  right: -800px;
+}
+
+.mail3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.location3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.tact form {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.tact form .input-box1 {
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  color: white;
+}
+
+.tact form .input-box1 input,
+.tact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: white;
+  background: transparent;
+  /* border: .8rem; */
+  margin: 0.7rem 0;
+  border: solid 2px greenyellow;
+}
+
+.tact form .input-box1 input {
+  width: 50%;
+}
+
+.tact form textarea {
+  /* resize: none; */
+}
+
+.tact form .btn7a {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.text7 {
+  position: relative;
+}
+
+.text7 h1 {
+  /* position: absolute; */
+  /* left: 100px; */
+}
+
+.btn7a {
+  padding: 20px 30px 20px 30px;
+  border-radius: 8px;
+  background-color: greenyellow;
+}
+
+.ltag1 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.conn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.stay {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1000px;
+  left: 0;
+  gap: 30px;
+}
+
+.frequent {
+  background-image: url(Text\ Container.png);
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.frequent h1 {
+  color: white;
+}
+
+.frequent p {
+  color: white;
+}
+
+.digt {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thrive1 {
+  position: absolute;
+  top: 3850px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.collab0 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 4050px;
+  left: 100px;
+  gap: 20px;
+  align-items: center;
+}
+
+.collab0 button {
+  padding: 18px 34px 18px 34px;
+  background-color: greenyellow;
+  border-radius: 8px;
+}
+
+.secnav2 {
+  position: absolute;
+  top: 4250px;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lin {
+ 
+}
+
+.foot7 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: absolute;
+  top: 500px;
+}
+
+.foot7 h3 {
+  color: white;
+}
+
+.footext7 {
+  position: absolute;
+  right: -800px;
+}
+
+.mail7 {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone7 {
+  display: flex;
+  flex-direction: row;
+}
+
+.location7 {
+  display: flex;
+  flex-direction: row;
+}

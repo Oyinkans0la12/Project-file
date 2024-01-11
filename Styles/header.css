@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+}
+
+.navhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 32px;
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 4rem;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: greenyellow;
+}
+
+.text {
+  font-size: 2rem;
+  display: flex;
+  justify-self: center;
+  color: white;
+}
+
+.hid {
+  display: none;
+}
+.toggle {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown-menu {
+  z-index: 99999;
+  position: absolute;
+  top: 70px;
+  right: 2rem;
+  width: 300px;
+  background: grey;
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 5s ease-in;
+}
+
+.dropdown-menu a {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  color: greenyellow;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
+  .hid {
+    display: block;
+  }
+  .toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+  }
+  .toggle-menu {
+    display: block;
+  }
+}

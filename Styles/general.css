@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-image: url(abs\ Design.svg);
+    background-repeat: no-repeat;
+  }
+
+  .block {
+    gap: 50px;
+    justify-self: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .block img{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    margin-inline: auto;
+  }
+  .src16 {
+    
+    left: 45px;
+    top: 0;
+  }
+  
+  .block h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .block p {
+    color: white;
+    text-align: center;
+  }
+  .pro{
+    width: fit-content;
+    margin-inline: auto;
+  }
+  .contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+    top: 4700px;
+    left: 500px;
+  }
+  
+  .contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    
+  }
+  
+  .contact form .input-box input,
+  .contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: white;
+    background: transparent;
+    border: 0.8rem;
+    margin: 0.7rem 0;
+    border: solid greenyellow 2px;
+  }
+  
+  .contact form .input-box input {
+    width: 49%;
+  }
+  
+  .contact form textarea {
+    resize: none;
+  }
+  
+  .contact form .btn7 {
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  .text7 {
+    position: relative;
+  }
+  
+  .text7 h1 {
+    
+    left: 100px;
+  }
+  
+  .btn7 {
+    padding: 20px 30px 20px 30px;
+    border-radius: 8px;
+    background-color: greenyellow;
+  }
+  
+  .ltag {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    
+  }
+  
+  .cont {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .logo2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    
+    top: 5600px;
+  }
+  
+  .logo2 h1 {
+    color: white;
+  }
+  
+  .lin {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    right: 0;
+  }
+  
+  .lin h3 {
+    color: white;
+  }
